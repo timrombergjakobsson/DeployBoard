@@ -1,0 +1,8 @@
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.Tests.dll.config
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.Tests.dll
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.Tests.pdb
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.dll
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.pdb
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\DeployBoard.Tests.dll
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\DeployBoard.Tests.pdb
