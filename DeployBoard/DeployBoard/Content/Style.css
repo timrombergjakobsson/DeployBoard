@@ -65,12 +65,16 @@ header ul#menu {
     color: #333;
     padding: 18px 244px 18px 18px;
     position: relative;
-    width:785px;
+    width:940px;
     margin:0;
 
   }
 
   /* Table */
+
+   thead {
+   width:800px;
+   }
 
   #deploy-board {
     border-top: 1px solid #D8D8D8;
@@ -79,7 +83,8 @@ header ul#menu {
     margin-bottom: 1em;
     border-radius: 3px;
     border-bottom: 1px solid #D8D8D8;
-    margin:0;
+    width:800px;
+    margin
   }
 
   #deploy-board td {
@@ -91,9 +96,12 @@ header ul#menu {
     color:#777;
   }
 
-  tbody #cpx {
-    border-bottom: 1 px solid black;
+  #board tbody #cpx {
+   
+   
   }
+
+  
 
   
   #deploy-board .primary-table-heading {
@@ -117,8 +125,12 @@ header ul#menu {
     text-shadow: 0 1px 1px #fff;
   }
 
-  #deploy-board thead .environments {
-    
+  .insert-col {
+    border-bottom:1px solid #D8D8D8;
+    background: -webkit-gradient(linear, top, left, bottom, from(#fafafa), to(#efefef));
+    border-radius: 8px;
+    margin-top: 1.0em; 
+    width:auto;
   }
 
   .number-insert {
@@ -127,8 +139,8 @@ header ul#menu {
 
   .row-heading {
     width:150px;
-    border-bottom:1px solid #D8D8D8;
     border-right:1px solid #D8D8D8;
+    border-bottom:1px solid #D8D8D8;
   }
 
   #deploy-board .pseudo {
