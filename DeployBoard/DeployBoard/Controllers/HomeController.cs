@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DeployBoard.Models;
 
 namespace DeployBoard.Controllers
 {
@@ -10,7 +11,7 @@ namespace DeployBoard.Controllers
     {
         public ActionResult Index()
         {
-    
+
             return View();
         }
 
@@ -18,5 +19,12 @@ namespace DeployBoard.Controllers
         {
             return View();
         }
+
+
+        public ActionResult ListApplications()
+        {
+            return View("Index", ApplicationModel.GetApplicationList());
+        }
+
     }
 }
