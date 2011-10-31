@@ -9,6 +9,7 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,a,p,blockquote,th,td { 
     margin:0;
     padding:0;
+    
     }
 
  #cint-logo {
@@ -38,12 +39,13 @@ header ul#menu {
 
 #sheet {
     padding: 32px 0;
+    margin: 0;
 }
 
 .wrapper {
     margin: 0 auto;
-    padding: 0 12px;
-    width: 960px;
+    padding: 0px;
+    width: 980px;
  }
     
 
@@ -52,7 +54,13 @@ header ul#menu {
     margin:0 auto;
 }
 
+tr {
+    width: 800px;
+}
 
+#deployboard .insert-col td {
+    width: 20px;
+}
 
 #board {
     background: #fff;
@@ -63,18 +71,15 @@ header ul#menu {
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .25), 0 -1px 1px rgba(113, 123, 149, .2);
     box-shadow: 0 1px 2px rgba(0, 0, 0, .25), 0 -1px 1px rgba(113, 123, 149, .2);
     color: #333;
-    padding: 18px 244px 18px 18px;
+    padding: 18px 310px 18px 18px;
     position: relative;
-    width:810px;
+    width:980px;
     margin:0;
 
   }
 
   /* Table */
 
-   thead {
-   width:800px;
-   }
 
   #deploy-board {
     border-top: 1px solid #D8D8D8;
@@ -83,9 +88,18 @@ header ul#menu {
     margin-bottom: 1em;
     border-radius: 3px;
     border-bottom: 1px solid #D8D8D8;
-    width:850px;
-    margin
+    width:800px;
+    margin: 0;
   }
+
+  .primary-table-heading {
+      width: 500px;
+  }
+
+  .insert-col .number-insert td {
+      width: 10px;
+  }
+
 
   #deploy-board td {
     padding: .3em .3em;
@@ -96,12 +110,7 @@ header ul#menu {
     color:#777;
   }
 
-  #board tbody #cpx {
-   
-   
-  }
 
-  
 
   
   #deploy-board .primary-table-heading {
@@ -130,7 +139,11 @@ header ul#menu {
     background: -webkit-gradient(linear, top, left, bottom, from(#fafafa), to(#efefef));
     border-radius: 8px;
     margin-top: 1.0em; 
-    width:auto;
+
+  }
+
+  tr td.insert-col {
+      width: 10px !important;
   }
 
   .number-insert {

@@ -8,8 +8,10 @@ using DeployBoard.Controllers;
 
 namespace DeployBoard.Tests
 {
+    [Describe(typeof(TestSpecs))]
     class TestSpecs
     {
+
     }
 }
 
