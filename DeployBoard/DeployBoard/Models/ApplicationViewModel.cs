@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 
 namespace DeployBoard.Models
 {
@@ -12,8 +8,15 @@ namespace DeployBoard.Models
         public int ApplicationId { get; set; }
         public string Name { get; set; }
         public int ServerId { get; set; }
+        private int _deployNumber;
+
         [RegularExpression(@"[-+]?[0-9]*\.?[0-9]?[0-9]", ErrorMessage = "Number required.")]
-        public int DeployNumber { get; set; }
+        public int DeployNumber
+        {
+            get { return _deployNumber; }
+            set { _deployNumber = value; }
+        }
+
         public ICollection<Environment> Environments { get; set; }
     }
 }

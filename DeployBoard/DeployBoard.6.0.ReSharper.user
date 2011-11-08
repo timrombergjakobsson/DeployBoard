@@ -4,91 +4,138 @@
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:About.cshtml" caret="69" fromTop="8" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Application/f:ListApplications.cshtml" caret="4440" fromTop="17" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
-      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:TestSpecs.cs" caret="234" fromTop="14" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:ApplicationController.cs" caret="249" fromTop="8" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="855" fromTop="15" />
-      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/d:Controllers/f:HomeControllerTest.cs" caret="731" fromTop="18" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="341" fromTop="12" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:grid.css" caret="3350" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="460" fromTop="23" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1722" fromTop="27" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="598" fromTop="5" />
+      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/d:Controllers/f:HomeControllerTest.cs" caret="385" fromTop="10" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:AccountModels.cs" caret="0" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/f:Web.config" caret="547" fromTop="6" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:AccountController.cs" caret="2024" fromTop="3" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
+      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:DeployNumberSpec.cs" caret="339" fromTop="15" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="4153" fromTop="20" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="955" fromTop="20" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="450" fromTop="13" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="1165" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/f:Web.config" caret="461" fromTop="8" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="361" fromTop="12" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="463" fromTop="16" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:jquery.ba-tinypubsub.js" caret="351" fromTop="15" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="610" fromTop="19" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_Layout.cshtml" caret="1316" fromTop="32" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="272" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="535" fromTop="18" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="276" fromTop="8" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="189" fromTop="7" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="78" fromTop="4" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1271" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="8781" fromTop="31" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="278" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="397" fromTop="19" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="9330" fromTop="21" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1093" fromTop="21" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1474" fromTop="27" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1684" fromTop="17" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="166" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="166" fromTop="6" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="340" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="510" fromTop="16" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="456" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="10" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="10" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="11" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="1" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="73" fromTop="3" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:jquery.ba-tinypubsub.js" caret="557" fromTop="24" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="515" fromTop="3" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="498" fromTop="17" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="303" fromTop="9" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="53" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="260" fromTop="9" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="349" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="1050" fromTop="30" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_Layout.cshtml" caret="570" fromTop="9" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_Layout.cshtml" caret="1548" fromTop="19" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="26" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="814" fromTop="19" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="189" fromTop="7" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="166" fromTop="9" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="15719" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="468" fromTop="19" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/f:Web.config" caret="3568" fromTop="8" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="166" fromTop="16" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="68" fromTop="2" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="250" fromTop="10" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="652" fromTop="20" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="4029" fromTop="19" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="3426" fromTop="1" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="4420" fromTop="14" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="4238" fromTop="22" />
+      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:DeployNumberSpec.cs" caret="264" fromTop="10" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="431" fromTop="17" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="1165" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1142" fromTop="14" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1400" fromTop="21" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1217" fromTop="17" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="81" fromTop="2" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="328" fromTop="10" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="548" fromTop="16" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="21" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="22" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="27" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="26" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="27" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
       <Item value="from" priority="31" />
-      <Item value="Application`0" priority="63" />
-      <Item value="deployBoardEntities" priority="31" />
+      <Item value="Application`0" priority="122" />
+      <Item value="deployBoardEntities" priority="324" />
       <Item value="orderby" priority="31" />
       <Item value="a" priority="215" />
       <Item value="select" priority="31" />
-      <Item value="applications" priority="31" />
-      <Item value="Html" priority="31" />
-      <Item value="DeployBoard" priority="217" />
+      <Item value="applications" priority="130" />
+      <Item value="Html" priority="307" />
+      <Item value="DeployBoard" priority="439" />
       <Item value="Controllers" priority="53" />
-      <Item value="Models" priority="134" />
-      <Item value="ApplicationModel`0" priority="85" />
-      <Item value="foreach" priority="31" />
+      <Item value="Models" priority="242" />
+      <Item value="ApplicationModel`0" priority="181" />
+      <Item value="foreach" priority="63" />
       <Item value="ViewBag" priority="95" />
       <Item value="Layout" priority="31" />
       <Item value="null" priority="31" />
       <Item value="ApplicationIdentity`0" priority="63" />
-      <Item value="Model" priority="93" />
-      <Item value="DeployBoardEntities`0" priority="93" />
-      <Item value="using" priority="61" />
+      <Item value="Model" priority="281" />
+      <Item value="DeployBoardEntities`0" priority="509" />
+      <Item value="using" priority="152" />
       <Item value="descending" priority="63" />
       <Item value="ascending" priority="31" />
-      <Item value="public" priority="127" />
-      <Item value="ActionResult`0" priority="95" />
-      <Item value="return" priority="63" />
+      <Item value="public" priority="191" />
+      <Item value="ActionResult`0" priority="127" />
+      <Item value="return" priority="127" />
       <Item value="where" priority="31" />
       <Item value="IEnumerable" priority="31" />
       <Item value="Name" priority="26" />
-      <Item value="private" priority="31" />
+      <Item value="private" priority="63" />
       <Item value="deployBoardDataContext" priority="32" />
-      <Item value="new" priority="31" />
+      <Item value="new" priority="383" />
+      <Item value="DeployBoardEntities" priority="115" />
+      <Item value="void" priority="31" />
+      <Item value="application" priority="129" />
+      <Item value="DeployBoardContext`0" priority="191" />
+      <Item value="IRepository" priority="26" />
+      <Item value="System" priority="30" />
+      <Item value="_deployBoardEntities" priority="256" />
+      <Item value="Applications" priority="55" />
+      <Item value="MyDeployBoardContext`0" priority="31" />
+      <Item value="MvcApplication`0" priority="26" />
+      <Item value="Application" priority="28" />
+      <Item value="ApplicationViewModel`0" priority="155" />
+      <Item value="applicationView" priority="160" />
+      <Item value="deployBoard" priority="32" />
+      <Item value="DeployBoardContext" priority="28" />
+      <Item value="deploy" priority="32" />
+      <Item value="_deploy" priority="31" />
+      <Item value="var" priority="31" />
+      <Item value="Home" priority="32" />
+      <Item value="HttpPost" priority="31" />
+      <Item value="if" priority="31" />
+      <Item value="ModelState" priority="63" />
+      <Item value="this" priority="63" />
+      <Item value="View`0" priority="31" />
+      <Item value="model" priority="218" />
+      <Item value="HomeController`0" priority="63" />
+      <Item value="controller" priority="32" />
+      <Item value="HomeController" priority="28" />
+      <Item value="try" priority="31" />
+      <Item value="TempData" priority="31" />
+      <Item value="RedirectToAction`0" priority="31" />
+      <Item value="Index" priority="32" />
+      <Item value="Error" priority="32" />
+      <Item value="EditorForModel`0" priority="3" />
+      <Item value="FormMethod`0" priority="31" />
+      <Item value="m" priority="63" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DeployBoard.Models.DeployBoardEntities">
-      <Item value="Applications" priority="26" />
+      <Item value="Applications" priority="188" />
+      <Item value="Applications_Servers" priority="54" />
+      <Item value="AddToApplications`0" priority="107" />
+      <Item value="AddObject`0" priority="26" />
+      <Item value="ObjectStateManager" priority="27" />
+      <Item value="CreateObjectSet`1" priority="26" />
+      <Item value="SaveChanges`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
       <Item value="AsQueryable`1" priority="26" />
@@ -96,8 +143,11 @@
     <ItemStatistics item="RazorTransitionCompletionContext">
       <Item value="DeployBoard" priority="17" />
       <Item value="a" priority="35" />
-      <Item value="Model" priority="9" />
+      <Item value="Model" priority="25" />
       <Item value="DeployBoardEntities`0" priority="9" />
+      <Item value="using" priority="15" />
+      <Item value="model" priority="25" />
+      <Item value="Html" priority="51" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@DeployBoard.Models.ApplicationModel">
       <Item value="GetApplicationList`0" priority="107" />
@@ -123,9 +173,9 @@
     <ItemStatistics item="JavaScriptSpecificContext">
       <Item value="DeployBoard" priority="32" />
       <Item value="function" priority="32" />
-      <Item value="this" priority="76" />
+      <Item value="this" priority="98" />
       <Item value="form" priority="21" />
-      <Item value="console" priority="21" />
+      <Item value="console" priority="32" />
       <Item value="alert" priority="10" />
       <Item value="window" priority="10" />
       <Item value="if" priority="21" />
@@ -142,10 +192,37 @@
       <Item value="prototype" priority="17" />
       <Item value="submit" priority="8" />
       <Item value="FormValidator" priority="8" />
-      <Item value="log" priority="26" />
+      <Item value="log" priority="35" />
       <Item value="namespace" priority="17" />
       <Item value="length" priority="8" />
       <Item value="shift" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DeployBoard.Models.ApplicationModel">
+      <Item value="_deployBoardEntities" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DeployBoard.Models.DeployBoardEntities">
+      <Item value="GetObjectType`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DeployBoard.Models.ApplicationViewModel">
+      <Item value="DeployNumber" priority="324" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="AddObject`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="BeginForm`0" priority="26" />
+      <Item value="EditorForModel`0" priority="53" />
+      <Item value="EditorFor`2" priority="53" />
+      <Item value="Action`0" priority="26" />
+      <Item value="TextBoxFor`2" priority="26" />
+      <Item value="ValidationMessageFor`2" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="IsValid" priority="26" />
+      <Item value="AddModelError`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.FormMethod">
+      <Item value="Post" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
