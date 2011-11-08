@@ -1,17 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="ApplicationModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
   <EntityContainer Name="ApplicationModelStoreContainer">
-    <EntitySet Name="Applications" EntityType="ApplicationModel.Store.Applications" store:Type="Tables" store:Schema="dbo" store:Name="Applications">
-      <DefiningQuery>SELECT 
-      [Applications].[Id] AS [Id], 
-      [Applications].[Name] AS [Name], 
-      [Applications].[ServerId] AS [ServerId]
-      FROM [dbo].[Applications] AS [Applications]</DefiningQuery>
-    </EntitySet>
+    <EntitySet Name="Applications" EntityType="ApplicationModel.Store.Applications" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Applications_Servers" EntityType="ApplicationModel.Store.Applications_Servers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Servers" EntityType="ApplicationModel.Store.Servers" store:Type="Tables" Schema="dbo" />
   </EntityContainer>
-  <!--Errors Found During Generation:
-      warning 6002: The table/view 'C:\CODE\CINTDEPLOYBOARD\DEPLOYBOARD\DEPLOYBOARD\APP_DATA\DEPLOYBOARD.MDF.dbo.Applications' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
-      -->
   <EntityType Name="Applications">
     <Key>
       <PropertyRef Name="Id" />
@@ -19,5 +12,22 @@
     <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
     <Property Name="Name" Type="nvarchar" MaxLength="50" />
     <Property Name="ServerId" Type="int" />
+    <Property Name="DeployNumber" Type="int" />
+  </EntityType>
+  <EntityType Name="Applications_Servers">
+    <Key>
+      <PropertyRef Name="Server_id" />
+      <PropertyRef Name="Applications_id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Server_id" Type="int" Nullable="false" />
+    <Property Name="Applications_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Servers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
   </EntityType>
 </Schema>

@@ -6,17 +6,10 @@
     <edmx:StorageModels>
     <Schema Namespace="ApplicationModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
         <EntityContainer Name="ApplicationModelStoreContainer">
-          <EntitySet Name="Applications" EntityType="ApplicationModel.Store.Applications" store:Type="Tables" store:Schema="dbo" store:Name="Applications">
-            <DefiningQuery>SELECT 
-      [Applications].[Id] AS [Id], 
-      [Applications].[Name] AS [Name], 
-      [Applications].[ServerId] AS [ServerId]
-      FROM [dbo].[Applications] AS [Applications]</DefiningQuery>
-          </EntitySet>
+          <EntitySet Name="Applications" EntityType="ApplicationModel.Store.Applications" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Applications_Servers" EntityType="ApplicationModel.Store.Applications_Servers" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Servers" EntityType="ApplicationModel.Store.Servers" store:Type="Tables" Schema="dbo" />
         </EntityContainer>
-        <!--Errors Found During Generation:
-      warning 6002: The table/view 'C:\CODE\CINTDEPLOYBOARD\DEPLOYBOARD\DEPLOYBOARD\APP_DATA\DEPLOYBOARD.MDF.dbo.Applications' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
-      -->
         <EntityType Name="Applications">
           <Key>
             <PropertyRef Name="Id" />
@@ -24,6 +17,23 @@
           <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="nvarchar" MaxLength="50" />
           <Property Name="ServerId" Type="int" />
+          <Property Name="DeployNumber" Type="int" />
+        </EntityType>
+        <EntityType Name="Applications_Servers">
+          <Key>
+            <PropertyRef Name="Server_id" />
+            <PropertyRef Name="Applications_id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Server_id" Type="int" Nullable="false" />
+          <Property Name="Applications_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Servers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
         </EntityType>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -31,6 +41,8 @@
       <Schema Namespace="ApplicationModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
         <EntityContainer Name="DeployBoardEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Applications" EntityType="ApplicationModel.Application" />
+          <EntitySet Name="Applications_Servers" EntityType="ApplicationModel.Applications_Servers" />
+          <EntitySet Name="Servers" EntityType="ApplicationModel.Servers" />
         </EntityContainer>
         <EntityType Name="Application">
           <Key>
@@ -39,6 +51,23 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
           <Property Name="ServerId" Type="Int32" />
+          <Property Type="Int32" Name="DeployNumber" />
+        </EntityType>
+        <EntityType Name="Applications_Servers">
+          <Key>
+            <PropertyRef Name="Server_id" />
+            <PropertyRef Name="Applications_id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="Server_id" Nullable="false" />
+          <Property Type="Int32" Name="Applications_id" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Servers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -47,10 +76,28 @@
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="ApplicationModelStoreContainer" CdmEntityContainer="DeployBoardEntities">
           <EntitySetMapping Name="Applications"><EntityTypeMapping TypeName="ApplicationModel.Application"><MappingFragment StoreEntitySet="Applications">
-            <ScalarProperty Name="Id" ColumnName="Id" />
+            <ScalarProperty Name="DeployNumber" ColumnName="DeployNumber" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
             <ScalarProperty Name="Name" ColumnName="Name" />
             <ScalarProperty Name="ServerId" ColumnName="ServerId" />
           </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Applications_Servers">
+            <EntityTypeMapping TypeName="ApplicationModel.Applications_Servers">
+              <MappingFragment StoreEntitySet="Applications_Servers">
+                <ScalarProperty Name="Applications_id" ColumnName="Applications_id" />
+                <ScalarProperty Name="Server_id" ColumnName="Server_id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Servers">
+            <EntityTypeMapping TypeName="ApplicationModel.Servers">
+              <MappingFragment StoreEntitySet="Servers">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -72,7 +119,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <Diagrams>
       <Diagram Name="DeployBoard">
-        <EntityTypeShape EntityType="ApplicationModel.Application" Width="1.5" PointX="0.75" PointY="0.75" Height="1.6156835937500005" IsExpanded="true" />
+        <EntityTypeShape EntityType="ApplicationModel.Application" Width="1.5" PointX="0.75" PointY="0.75" Height="1.59568359375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ApplicationModel.Applications_Servers" Width="1.5" PointX="3.75" PointY="0.75" Height="1.5956835937499996" />
+        <EntityTypeShape EntityType="ApplicationModel.Servers" Width="1.5" PointX="0.75" PointY="3.75" Height="1.4033821614583322" />
       </Diagram>
     </Diagrams>
   </Designer>

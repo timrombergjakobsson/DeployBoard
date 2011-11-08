@@ -12,26 +12,15 @@
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:grid.css" caret="3350" fromTop="12" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="460" fromTop="23" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1722" fromTop="27" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:jquery.ba-tinypubsub.js" caret="351" fromTop="15" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="610" fromTop="19" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_Layout.cshtml" caret="1316" fromTop="32" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="272" fromTop="12" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="535" fromTop="18" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="276" fromTop="8" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="78" fromTop="4" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="2193" fromTop="14" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="2404" fromTop="22" />
-      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:TestSpecs.cs" caret="160" fromTop="6" />
-      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:TestSpecs.cs" caret="236" fromTop="15" />
-      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:TestSpecs.cs" caret="222" fromTop="11" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="137" fromTop="5" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="558" fromTop="19" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="558" fromTop="21" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Application/f:ListApplications.cshtml" caret="4488" fromTop="18" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="3106" fromTop="28" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="3816" fromTop="25" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="4517" fromTop="19" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5225" fromTop="28" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5928" fromTop="25" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="6644" fromTop="25" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="7352" fromTop="28" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="8076" fromTop="28" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="8781" fromTop="31" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="278" fromTop="12" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="397" fromTop="19" />
@@ -45,6 +34,23 @@
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="340" fromTop="12" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="510" fromTop="16" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="456" fromTop="12" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="12" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="10" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="10" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="11" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="0" fromTop="1" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="73" fromTop="3" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:jquery.ba-tinypubsub.js" caret="557" fromTop="24" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="515" fromTop="3" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="498" fromTop="17" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="303" fromTop="9" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="53" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="260" fromTop="9" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="349" fromTop="12" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="1050" fromTop="30" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_Layout.cshtml" caret="570" fromTop="9" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_Layout.cshtml" caret="1548" fromTop="19" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="26" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
@@ -113,6 +119,33 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
       <Item value="AsQueryable`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="DeployBoard" priority="32" />
+      <Item value="function" priority="32" />
+      <Item value="this" priority="76" />
+      <Item value="form" priority="21" />
+      <Item value="console" priority="21" />
+      <Item value="alert" priority="10" />
+      <Item value="window" priority="10" />
+      <Item value="if" priority="21" />
+      <Item value="global" priority="32" />
+      <Item value="throw" priority="10" />
+      <Item value="var" priority="21" />
+      <Item value="namespace" priority="10" />
+      <Item value="parts" priority="32" />
+      <Item value="context" priority="54" />
+      <Item value="declaration" priority="10" />
+      <Item value="Element" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContextQualified">
+      <Item value="prototype" priority="17" />
+      <Item value="submit" priority="8" />
+      <Item value="FormValidator" priority="8" />
+      <Item value="log" priority="26" />
+      <Item value="namespace" priority="17" />
+      <Item value="length" priority="8" />
+      <Item value="shift" priority="8" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>

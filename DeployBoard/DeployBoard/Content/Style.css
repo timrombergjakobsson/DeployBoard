@@ -14,9 +14,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,a,
 
  #cint-logo {
     color:#FFF;
-    font-size:2.0em;
+    font-size:2.3em;
     margin-left: 0.5em;
-    margin-top:0.2em;
+    margin-top:0.05em;
  }
 
  h2 {
@@ -51,11 +51,7 @@ header ul#menu {
 
 #main {
     width:960px;
-    margin:0 auto;
-}
-
-tr {
-    width: 800px;
+    margin-left: 220px;
 }
 
 #deployboard .insert-col td {
@@ -229,7 +225,7 @@ cursor: pointer;
 
 /*  Typography */
 body {
-    background: url('../images/body_bg.png') repeat #f0f0f0;
+    background: url('~/Content/themes/base/images/body_bg.png') repeat #f0f0f0;
     font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
     font-size:100%;
 

@@ -2,6 +2,8 @@
 <Schema Namespace="ApplicationModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
   <EntityContainer Name="DeployBoardEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Applications" EntityType="ApplicationModel.Application" />
+    <EntitySet Name="Applications_Servers" EntityType="ApplicationModel.Applications_Servers" />
+    <EntitySet Name="Servers" EntityType="ApplicationModel.Servers" />
   </EntityContainer>
   <EntityType Name="Application">
     <Key>
@@ -10,5 +12,22 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
     <Property Name="ServerId" Type="Int32" />
+    <Property Type="Int32" Name="DeployNumber" />
+  </EntityType>
+  <EntityType Name="Applications_Servers">
+    <Key>
+      <PropertyRef Name="Server_id" />
+      <PropertyRef Name="Applications_id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="Server_id" Nullable="false" />
+    <Property Type="Int32" Name="Applications_id" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Servers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>

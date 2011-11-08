@@ -4,9 +4,27 @@
     <EntitySetMapping Name="Applications">
       <EntityTypeMapping TypeName="ApplicationModel.Application">
         <MappingFragment StoreEntitySet="Applications">
+          <ScalarProperty Name="DeployNumber" ColumnName="DeployNumber" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="ServerId" ColumnName="ServerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Applications_Servers">
+      <EntityTypeMapping TypeName="ApplicationModel.Applications_Servers">
+        <MappingFragment StoreEntitySet="Applications_Servers">
+          <ScalarProperty Name="Applications_id" ColumnName="Applications_id" />
+          <ScalarProperty Name="Server_id" ColumnName="Server_id" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servers">
+      <EntityTypeMapping TypeName="ApplicationModel.Servers">
+        <MappingFragment StoreEntitySet="Servers">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

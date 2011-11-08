@@ -15,16 +15,17 @@ namespace DeployBoard.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            return View();
-        }
-
-
+   
         public ActionResult ListApplications()
         {
             return View("Index", ApplicationModel.GetApplicationList());
         }
+
+         public ActionResult About()
+        {
+            return View();
+        }
+
 
     }
 }
