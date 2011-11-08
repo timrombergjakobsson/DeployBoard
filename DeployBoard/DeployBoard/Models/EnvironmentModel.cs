@@ -9,10 +9,9 @@ namespace DeployBoard.Models
     {
         public static IQueryable <Environment> GetServerList()
         {
-            DeployBoardEntities deployBoardEntities = new DeployBoardEntities();
+            return null;
+            //DeployBoardEntities deployBoardEntities = new DeployBoardEntities();
             //var servers = from s in deployBoardEntities
-
-          
         }
     }
 

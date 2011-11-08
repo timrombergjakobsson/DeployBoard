@@ -24,10 +24,10 @@ namespace DeployBoard.Controllers
         }
 
    
-        public ActionResult ListApplications()
+        /*public ActionResult ListApplications()
         {
             return View("Index", ApplicationModel.GetApplicationList());
-        }
+        }*/
 
          public ActionResult About()
         {

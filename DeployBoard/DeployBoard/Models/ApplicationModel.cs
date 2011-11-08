@@ -8,11 +8,11 @@ namespace DeployBoard.Models
 {
     public class ApplicationModel
     {
-        private DeployBoardEntities deployBoardEntities = new DeployBoardEntities();
+        public static DeployBoardEntities DeployBoardEntities = new DeployBoardEntities();
 
-        public static IQueryable<Application> GetApplicationList(DeployBoardEntities deployBoardEntities)
+        public static IQueryable<Application> GetApplicationList()
         {
-            var applications = deployBoardEntities.Applications.OrderByDescending(a => a.Name);
+            var applications = DeployBoardEntities.Applications.OrderByDescending(a => a.Name);
             return applications.AsQueryable<Application>().Distinct();
         }
 

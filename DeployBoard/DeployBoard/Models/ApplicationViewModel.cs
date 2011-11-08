@@ -8,14 +8,9 @@ namespace DeployBoard.Models
         public int ApplicationId { get; set; }
         public string Name { get; set; }
         public int ServerId { get; set; }
-        private int _deployNumber;
 
         [RegularExpression(@"[-+]?[0-9]*\.?[0-9]?[0-9]", ErrorMessage = "Number required.")]
-        public int DeployNumber
-        {
-            get { return _deployNumber; }
-            set { _deployNumber = value; }
-        }
+        public int DeployNumber { get; set; }
 
         public ICollection<Environment> Environments { get; set; }
     }

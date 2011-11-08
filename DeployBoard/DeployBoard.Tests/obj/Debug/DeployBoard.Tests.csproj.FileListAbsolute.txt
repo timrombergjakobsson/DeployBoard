@@ -7,3 +7,5 @@ C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\ResolveAssemblyR
 C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\DeployBoard.Tests.dll
 C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\DeployBoard.Tests.pdb
 C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\Cone.dll
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\EntityFramework.dll
+C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\EntityFramework.xml

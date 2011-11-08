@@ -1,61 +1,11 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:About.cshtml" caret="69" fromTop="8" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Application/f:ListApplications.cshtml" caret="4440" fromTop="17" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:grid.css" caret="3350" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="598" fromTop="5" />
       <File id="C03874B9-BE2A-4C30-9455-90DE41606826/d:Controllers/f:HomeControllerTest.cs" caret="385" fromTop="10" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:AccountModels.cs" caret="0" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/f:Web.config" caret="547" fromTop="6" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:AccountController.cs" caret="2024" fromTop="3" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
       <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:DeployNumberSpec.cs" caret="339" fromTop="15" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="4153" fromTop="20" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="955" fromTop="20" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="450" fromTop="13" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="1165" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/f:Web.config" caret="461" fromTop="8" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="361" fromTop="12" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:namespace.js" caret="463" fromTop="16" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:jquery.ba-tinypubsub.js" caret="351" fromTop="15" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="189" fromTop="7" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:main.js" caret="78" fromTop="4" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1271" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:RepositoryBase.cs" caret="814" fromTop="19" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Scripts/f:board.js" caret="189" fromTop="7" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="166" fromTop="9" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="15719" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="468" fromTop="19" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/f:Web.config" caret="3568" fromTop="8" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="166" fromTop="16" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="68" fromTop="2" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="250" fromTop="10" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="652" fromTop="20" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="4029" fromTop="19" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="3426" fromTop="1" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="4420" fromTop="14" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="4238" fromTop="22" />
       <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:DeployNumberSpec.cs" caret="264" fromTop="10" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="431" fromTop="17" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="1165" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1142" fromTop="14" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1400" fromTop="21" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1217" fromTop="17" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="81" fromTop="2" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="328" fromTop="10" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="548" fromTop="16" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="21" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="22" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="27" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="26" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="5299" fromTop="27" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
