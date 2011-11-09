@@ -119,7 +119,7 @@ namespace DeployBoard.Models
         /// <summary>
         /// Deprecated Method for adding a new object to the Applications EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
         /// </summary>
-        public void AddToApplications(int application)
+        public void AddToApplications(Application application)
         {
             base.AddObject("Applications", application);
         }

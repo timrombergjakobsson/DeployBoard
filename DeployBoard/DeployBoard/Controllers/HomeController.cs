@@ -10,11 +10,12 @@ namespace DeployBoard.Controllers
 {
     public class HomeController : Controller
     {
-        private DeployBoardEntities _deployBoardEntities;
+        private DeployBoardContext deployBoard;
 
+       
         public HomeController()
         {
-            _deployBoardEntities = new DeployBoardEntities();
+            deployBoard = new DeployBoardContext();
         }
 
         public ActionResult Index()
@@ -41,11 +42,9 @@ namespace DeployBoard.Controllers
            {
                if(ModelState.IsValid)
                {
-                   _deployBoardEntities.AddToApplications(model.DeployNumber);
-                   _deployBoardEntities.SaveChanges();
+                   deployBoard.Applications.Add();
+                   deployBoard.SaveChanges();
                    return RedirectToAction("Index");
-
-
                }
 
            }
