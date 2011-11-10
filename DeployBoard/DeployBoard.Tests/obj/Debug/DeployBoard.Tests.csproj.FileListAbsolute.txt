@@ -9,3 +9,13 @@ C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\DeployBoard.Test
 C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\Cone.dll
 C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\EntityFramework.dll
 C:\code\cintDeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\EntityFramework.xml
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.Tests.dll.config
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.Tests.dll
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.Tests.pdb
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.dll
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\EntityFramework.dll
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\DeployBoard.pdb
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\bin\Debug\EntityFramework.xml
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\DeployBoard.Tests.dll
+C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard.Tests\obj\Debug\DeployBoard.Tests.pdb

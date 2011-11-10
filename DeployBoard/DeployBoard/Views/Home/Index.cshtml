@@ -17,7 +17,7 @@
                 <thead>
                     <tr>
                     <th class="primary-table-heading" scope="colgroup"><span class="environments"></span></th>
-                        <th class="primary-table-heading" scope="colgroup"><span class="environments">Next Deploy</span>@Html.DropDownList()</th>
+                        <th class="primary-table-heading" scope="colgroup"><span class="environments">Next Deploy</span></th>
                         <th class="primary-table-heading" scope="colgroup"><span class="environments">WWW6</span></th>
                         <th class="primary-table-heading" scope="colgroup"><span class="environments">WWW7</span></th>
                         <th class="primary-table-heading" scope="colgroup"><span class="environments">WWW1/2</span></th>
@@ -26,12 +26,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @{
+                    @{  
                         foreach (var a in ApplicationModel.GetApplicationList())
                         {      
                     <tr id="applications">
                         <td scope="row" class="row-heading">
-                            <p class="pseudo">H@a.Name</p>  
+                            <p class="pseudo">@a.Name</p>  
                         </td> 
                         <td class="insert-col">
                         <div class="number-insert">
