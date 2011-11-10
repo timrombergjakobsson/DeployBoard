@@ -7,3 +7,5 @@ C:\code\cintDeployBoard\DeployBoard\DeployBoard\obj\Debug\DeployBoard.dll
 C:\code\cintDeployBoard\DeployBoard\DeployBoard\obj\Debug\DeployBoard.pdb
 C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard\obj\Debug\ResolveAssemblyReference.cache
 C:\code\.NET\home\DeployBoard\DeployBoard\DeployBoard\obj\Debug\DeployBoard.dll
+C:\code\.NET\DeployBoard\DeployBoard\DeployBoard\obj\Debug\ResolveAssemblyReference.cache
+C:\code\.NET\DeployBoard\DeployBoard\DeployBoard\obj\Debug\DeployBoard.dll
