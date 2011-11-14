@@ -1,0 +1,82 @@
+﻿       
+       @using(Html.BeginForm("Index" ,"Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "deployForm"}))
+        {
+            
+            <table id="deploy-board" cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                    <th class="primary-table-heading" scope="colgroup"><span class="environments"></span></th>
+                        <th class="primary-table-heading" scope="colgroup"><span class="environments">Next Deploy</span></th>
+                        <th class="primary-table-heading" scope="colgroup"><span class="environments">WWW6</span></th>
+                        <th class="primary-table-heading" scope="colgroup"><span class="environments">WWW7</span></th>
+                        <th class="primary-table-heading" scope="colgroup"><span class="environments">WWW1/2</span></th>
+                        <th class="primary-table-heading" scope="colgroup"><span class="environments">ROLLBACK</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{  
+                        foreach (var a in DeployBoard.Models.ApplicationModel.GetApplicationList())
+                        {      
+                    <tr id="applications">
+                        <td scope="row" class="row-heading">
+                            <p class="pseudo">@a.Name</p>  
+                        </td> 
+                        <td class="insert-col">
+                        <div class="number-insert">
+                            <p>Deploy Number</p>
+                            <span class="count"></span>
+                        </div>
+                        <form class="add-nummer">
+                            @Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                        </form>
+                        </td>
+                        <td class="insert-col">
+                        <div class="number-insert">
+                             <p>Deploy Number</p>
+                            <span class="count"></span>
+                        </div>
+                        <form class="add-nummer">
+                            @Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                        </form>
+                        </td>
+                        <td class="insert-col">
+                        <div class="number-insert">
+                             <p>Deploy Number</p>
+                            <span class="count"></span>
+                        </div>
+                        <form class="add-nummer">
+                            @Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                        </form>
+                        </td>
+         
+                        <td class="insert-col">
+                        <div class="number-insert">
+                             <p>Deploy Number</p>
+                            <span class="count"></span>
+                        </div>
+                        <form class="add-nummer">
+                           @Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                        </form>
+                        </td>
+                        <td class="insert-col">
+                        <div class="number-insert">
+                             <p>Deploy Numbero</p>
+                            <span class="count"></span>
+                        </div>
+                        <form class="add-nummer">
+                            @Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                            <input type="submit" class="add-build" value="Add"/>
+                        </form>
+                        </td>
+                        </tr>
+                         }    
+                     }
+                </tbody>
+            </table>
+        }
+

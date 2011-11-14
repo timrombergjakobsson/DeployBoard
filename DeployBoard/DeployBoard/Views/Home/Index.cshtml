@@ -10,6 +10,9 @@
 <div id="sheet">
     <div class="wrapper"> 
         <div id="board">
+        @{
+            Html.RenderPartial("_CpxApplications");
+        }
         @using(Html.BeginForm("Index" ,"Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "deployForm"}))
         {
             
@@ -22,7 +25,6 @@
                         <th class="primary-table-heading" scope="colgroup"><span class="environments">WWW7</span></th>
                         <th class="primary-table-heading" scope="colgroup"><span class="environments">WWW1/2</span></th>
                         <th class="primary-table-heading" scope="colgroup"><span class="environments">ROLLBACK</span></th>
-                        <th class="primary-table-heading" scope="colgroup"><span class="environments">Number</span></th>
                     </tr>
                 </thead>
                 <tbody>

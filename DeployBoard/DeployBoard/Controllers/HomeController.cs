@@ -10,12 +10,12 @@ namespace DeployBoard.Controllers
 {
     public class HomeController : Controller
     {
-        private DeployBoardContext deployBoard;
+        private readonly DeployBoardContext _deployBoard;
 
        
         public HomeController()
         {
-            deployBoard = new DeployBoardContext();
+            _deployBoard = new DeployBoardContext();
         }
 
         public ActionResult Index()
@@ -42,8 +42,8 @@ namespace DeployBoard.Controllers
            {
                if(ModelState.IsValid)
                {
-                   deployBoard.Applications.Add();
-                   deployBoard.SaveChanges();
+                   _deployBoard.Applications.Add();
+                   _deployBoard.SaveChanges();
                    return RedirectToAction("Index");
                }
 
