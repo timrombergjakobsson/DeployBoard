@@ -15,7 +15,7 @@ namespace DeployBoard.Controllers
        
         public HomeController()
         {
-            _deployBoard = new DeployBoardContext();
+            //_deployBoard = new DeployBoardContext();
         }
 
         public ActionResult Index()
@@ -42,8 +42,8 @@ namespace DeployBoard.Controllers
            {
                if(ModelState.IsValid)
                {
-                   _deployBoard.Applications.Add();
-                   _deployBoard.SaveChanges();
+                   //_deployBoard.Applications.Add();
+                   //_deployBoard.SaveChanges();
                    return RedirectToAction("Index");
                }
 

@@ -13,7 +13,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                @model DeployBoard.Models.ApplicationViewModel;
+                @model IEnumerable<DeployBoard.Models.ApplicationViewModel>
                     
                     @{  
                         foreach (var a in DeployBoard.Models.ApplicationModel.GetApplicationList())
@@ -29,8 +29,8 @@
                         </div>
                         <form class="add-nummer">
                             <input type="text"/>
-                            @Html.TextBoxFor(m => m.DeployNumber)
-                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                            @*@Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)*@
                         </form>
                         </td>
                         <td class="insert-col">
@@ -39,8 +39,8 @@
                             <span class="count"></span>
                         </div>
                         <form class="add-nummer">
-                            @Html.TextBoxFor(m => m.DeployNumber)
-                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                           @*@Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)*@
                         </form>
                         </td>
                         <td class="insert-col">
@@ -49,8 +49,8 @@
                             <span class="count"></span>
                         </div>
                         <form class="add-nummer">
-                            @Html.TextBoxFor(m => m.DeployNumber)
-                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                          @*@Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)*@
                         </form>
                         </td>
          
@@ -60,8 +60,8 @@
                             <span class="count"></span>
                         </div>
                         <form class="add-nummer">
-                           @Html.TextBoxFor(m => m.DeployNumber)
-                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                          @*@Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)*@
                         </form>
                         </td>
                         <td class="insert-col">
@@ -70,13 +70,13 @@
                             <span class="count"></span>
                         </div>
                         <form class="add-nummer">
-                            @Html.TextBoxFor(m => m.DeployNumber)
-                            @Html.ValidationMessageFor(m => m.DeployNumber)
+                            @*@Html.TextBoxFor(m => m.DeployNumber)
+                            @Html.ValidationMessageFor(m => m.DeployNumber)*@
                             <input type="submit" class="add-build" value="Add"/>
                         </form>
                         </td>
                         </tr>
-                         }    
+                        }    
                      }
                 </tbody>
             </table>

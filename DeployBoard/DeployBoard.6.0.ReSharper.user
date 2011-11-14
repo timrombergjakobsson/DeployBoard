@@ -1,25 +1,36 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/d:Controllers/f:HomeControllerTest.cs" caret="385" fromTop="10" />
-      <File id="C03874B9-BE2A-4C30-9455-90DE41606826/f:App.config" caret="204" fromTop="7" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Site.css" caret="0" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="677" fromTop="1" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Application/f:ListApplications.cshtml" caret="0" fromTop="0" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="0" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="0" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1132" fromTop="20" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="6888" fromTop="17" />
+      <File id="17E7B191-0492-4CC9-853F-5044E63E6609/f:Class1.cs" caret="165" fromTop="11" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="1221" fromTop="18" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="1252" fromTop="14" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1307" fromTop="27" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="1167" fromTop="17" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="186" fromTop="10" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="516" fromTop="16" />
     </RecentFiles>
     <RecentEdits>
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="308" fromTop="3" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1280" fromTop="11" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="250" fromTop="11" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="1528" fromTop="23" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="1248" fromTop="14" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="266" fromTop="13" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="4191" fromTop="34" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="4312" fromTop="34" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="250" fromTop="8" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="4438" fromTop="18" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1374" fromTop="20" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="1923" fromTop="22" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="2502" fromTop="24" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="3003" fromTop="13" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="3514" fromTop="18" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="3902" fromTop="15" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="0" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="633" fromTop="9" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="1133" fromTop="15" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="239" fromTop="11" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
@@ -32,18 +43,18 @@
       <Item value="select" priority="31" />
       <Item value="applications" priority="130" />
       <Item value="Html" priority="371" />
-      <Item value="DeployBoard" priority="503" />
+      <Item value="DeployBoard" priority="535" />
       <Item value="Controllers" priority="53" />
-      <Item value="Models" priority="296" />
+      <Item value="Models" priority="323" />
       <Item value="ApplicationModel`0" priority="272" />
       <Item value="foreach" priority="63" />
       <Item value="ViewBag" priority="95" />
       <Item value="Layout" priority="31" />
       <Item value="null" priority="31" />
       <Item value="ApplicationIdentity`0" priority="63" />
-      <Item value="Model" priority="377" />
+      <Item value="Model" priority="409" />
       <Item value="DeployBoardEntities`0" priority="509" />
-      <Item value="using" priority="212" />
+      <Item value="using" priority="242" />
       <Item value="descending" priority="63" />
       <Item value="ascending" priority="31" />
       <Item value="public" priority="191" />
@@ -66,7 +77,7 @@
       <Item value="MyDeployBoardContext`0" priority="31" />
       <Item value="MvcApplication`0" priority="26" />
       <Item value="Application" priority="28" />
-      <Item value="ApplicationViewModel`0" priority="187" />
+      <Item value="ApplicationViewModel`0" priority="214" />
       <Item value="applicationView" priority="160" />
       <Item value="deployBoard" priority="32" />
       <Item value="DeployBoardContext" priority="28" />
@@ -79,7 +90,7 @@
       <Item value="ModelState" priority="63" />
       <Item value="this" priority="63" />
       <Item value="View`0" priority="31" />
-      <Item value="model" priority="280" />
+      <Item value="model" priority="310" />
       <Item value="HomeController`0" priority="63" />
       <Item value="controller" priority="32" />
       <Item value="HomeController" priority="28" />
@@ -113,8 +124,8 @@
       <Item value="a" priority="35" />
       <Item value="Model" priority="25" />
       <Item value="DeployBoardEntities`0" priority="9" />
-      <Item value="using" priority="31" />
-      <Item value="model" priority="35" />
+      <Item value="using" priority="39" />
+      <Item value="model" priority="45" />
       <Item value="Html" priority="51" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@DeployBoard.Models.ApplicationModel">
@@ -125,6 +136,9 @@
     </ItemStatistics>
     <ItemStatistics item="HtmlCodeCompletionContext">
       <Item value="h1" priority="5" />
+      <Item value="input" priority="5" />
+      <Item value="type" priority="5" />
+      <Item value="button" priority="5" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Contains`0" priority="26" />
@@ -173,7 +187,7 @@
       <Item value="GetObjectType`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DeployBoard.Models.ApplicationViewModel">
-      <Item value="DeployNumber" priority="324" />
+      <Item value="DeployNumber" priority="378" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
       <Item value="AddObject`0" priority="26" />
@@ -193,6 +207,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Web.Mvc.FormMethod">
       <Item value="Post" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="DeployNumber" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
