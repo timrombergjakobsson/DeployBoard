@@ -1,5 +1,4 @@
-﻿       
-       @using(Html.BeginForm("Index" ,"Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "deployForm"}))
+﻿@using(Html.BeginForm("Index" ,"Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "deployForm"}))
         {
             
             <table id="deploy-board" cellpadding="0" cellspacing="0">
@@ -14,6 +13,8 @@
                     </tr>
                 </thead>
                 <tbody>
+                @model DeployBoard.Models.ApplicationViewModel;
+                    
                     @{  
                         foreach (var a in DeployBoard.Models.ApplicationModel.GetApplicationList())
                         {      
@@ -27,6 +28,7 @@
                             <span class="count"></span>
                         </div>
                         <form class="add-nummer">
+                            <input type="text"/>
                             @Html.TextBoxFor(m => m.DeployNumber)
                             @Html.ValidationMessageFor(m => m.DeployNumber)
                         </form>

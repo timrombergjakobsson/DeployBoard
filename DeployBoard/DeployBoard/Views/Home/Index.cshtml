@@ -1,6 +1,4 @@
-﻿@using DeployBoard.Models
-
-@model DeployBoard.Models.ApplicationViewModel
+﻿@model DeployBoard.Models.ApplicationViewModel
 
 @{
     ViewBag.Title = "Home Page";
@@ -13,6 +11,8 @@
         @{
             Html.RenderPartial("_CpxApplications");
         }
+        
+        @* 
         @using(Html.BeginForm("Index" ,"Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "deployForm"}))
         {
             
@@ -92,7 +92,7 @@
                      }
                 </tbody>
             </table>
-        }
+        } *@
             
         </div>
   </div>
