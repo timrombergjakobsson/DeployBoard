@@ -130,6 +130,7 @@
     <Content Include="Scripts.Specs\lib\jasmine-1.0.2\jasmine.css" />
     <Content Include="Scripts.Specs\lib\jasmine-1.0.2\jasmine.js" />
     <Content Include="Scripts.Specs\lib\jasmine-1.0.2\jquery-1.6.1.min.js" />
+    <Content Include="Scripts.Specs\main.spec.js" />
     <Content Include="Scripts.Specs\SpecRunner.html" />
     <Content Include="Scripts.Specs\Spec\SpecHelper.js" />
     <Content Include="Scripts\board.js" />
