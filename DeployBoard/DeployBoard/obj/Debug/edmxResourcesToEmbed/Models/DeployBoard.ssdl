@@ -3,6 +3,8 @@
   <EntityContainer Name="ApplicationModelStoreContainer">
     <EntitySet Name="Applications" EntityType="ApplicationModel.Store.Applications" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Applications_Servers" EntityType="ApplicationModel.Store.Applications_Servers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LoadBalanced_Applications" EntityType="ApplicationModel.Store.LoadBalanced_Applications" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Portal_Applications" EntityType="ApplicationModel.Store.Portal_Applications" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Servers" EntityType="ApplicationModel.Store.Servers" store:Type="Tables" Schema="dbo" />
   </EntityContainer>
   <EntityType Name="Applications">
@@ -22,6 +24,24 @@
     <Property Name="Id" Type="int" Nullable="false" />
     <Property Name="Server_id" Type="int" Nullable="false" />
     <Property Name="Applications_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoadBalanced_Applications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="ServeyId" Type="int" />
+    <Property Name="DeployNumber" Type="int" />
+  </EntityType>
+  <EntityType Name="Portal_Applications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="ServerId" Type="int" />
+    <Property Name="DeployNumber" Type="int" />
   </EntityType>
   <EntityType Name="Servers">
     <Key>

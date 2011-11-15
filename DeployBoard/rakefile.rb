@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'albacore'
 
-task :default => ['hello']
+task :default => ['hello', 'nunit']
 
 desc 'says hello'
 task :hello do
@@ -10,6 +10,6 @@ end
 
 desc "NUnit Test Runner Example"
 nnunit do |nunit|
-		nunit.command = "NUint/ninit-console.exe"
-		nunit.assemblies "assemblies/TestSolution.Tests.dll"
+		nunit.command = "tools/nunit/nunit-console.exe"
+		nunit.assemblies "bin/DeployBoard.Specs.dll"
 end

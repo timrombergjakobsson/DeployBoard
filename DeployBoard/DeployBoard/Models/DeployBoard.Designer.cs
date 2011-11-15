@@ -112,6 +112,38 @@ namespace DeployBoard.Models
             }
         }
         private ObjectSet<Servers> _Servers;
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        public ObjectSet<LoadBalanced_Applications> LoadBalanced_Applications
+        {
+            get
+            {
+                if ((_LoadBalanced_Applications == null))
+                {
+                    _LoadBalanced_Applications = base.CreateObjectSet<LoadBalanced_Applications>("LoadBalanced_Applications");
+                }
+                return _LoadBalanced_Applications;
+            }
+        }
+        private ObjectSet<LoadBalanced_Applications> _LoadBalanced_Applications;
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        public ObjectSet<Portal_Applications> Portal_Applications
+        {
+            get
+            {
+                if ((_Portal_Applications == null))
+                {
+                    _Portal_Applications = base.CreateObjectSet<Portal_Applications>("Portal_Applications");
+                }
+                return _Portal_Applications;
+            }
+        }
+        private ObjectSet<Portal_Applications> _Portal_Applications;
 
         #endregion
         #region AddTo Methods
@@ -138,6 +170,22 @@ namespace DeployBoard.Models
         public void AddToServers(Servers servers)
         {
             base.AddObject("Servers", servers);
+        }
+    
+        /// <summary>
+        /// Deprecated Method for adding a new object to the LoadBalanced_Applications EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
+        /// </summary>
+        public void AddToLoadBalanced_Applications(LoadBalanced_Applications loadBalanced_Applications)
+        {
+            base.AddObject("LoadBalanced_Applications", loadBalanced_Applications);
+        }
+    
+        /// <summary>
+        /// Deprecated Method for adding a new object to the Portal_Applications EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
+        /// </summary>
+        public void AddToPortal_Applications(Portal_Applications portal_Applications)
+        {
+            base.AddObject("Portal_Applications", portal_Applications);
         }
 
         #endregion
@@ -380,6 +428,260 @@ namespace DeployBoard.Models
         private global::System.Int32 _Applications_id;
         partial void OnApplications_idChanging(global::System.Int32 value);
         partial void OnApplications_idChanged();
+
+        #endregion
+    
+    }
+    
+    /// <summary>
+    /// No Metadata Documentation available.
+    /// </summary>
+    [EdmEntityTypeAttribute(NamespaceName="ApplicationModel", Name="LoadBalanced_Applications")]
+    [Serializable()]
+    [DataContractAttribute(IsReference=true)]
+    public partial class LoadBalanced_Applications : EntityObject
+    {
+        #region Factory Method
+    
+        /// <summary>
+        /// Create a new LoadBalanced_Applications object.
+        /// </summary>
+        /// <param name="id">Initial value of the Id property.</param>
+        public static LoadBalanced_Applications CreateLoadBalanced_Applications(global::System.Int32 id)
+        {
+            LoadBalanced_Applications loadBalanced_Applications = new LoadBalanced_Applications();
+            loadBalanced_Applications.Id = id;
+            return loadBalanced_Applications;
+        }
+
+        #endregion
+        #region Primitive Properties
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [DataMemberAttribute()]
+        public global::System.Int32 Id
+        {
+            get
+            {
+                return _Id;
+            }
+            set
+            {
+                if (_Id != value)
+                {
+                    OnIdChanging(value);
+                    ReportPropertyChanging("Id");
+                    _Id = StructuralObject.SetValidValue(value);
+                    ReportPropertyChanged("Id");
+                    OnIdChanged();
+                }
+            }
+        }
+        private global::System.Int32 _Id;
+        partial void OnIdChanging(global::System.Int32 value);
+        partial void OnIdChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public global::System.String Name
+        {
+            get
+            {
+                return _Name;
+            }
+            set
+            {
+                OnNameChanging(value);
+                ReportPropertyChanging("Name");
+                _Name = StructuralObject.SetValidValue(value, true);
+                ReportPropertyChanged("Name");
+                OnNameChanged();
+            }
+        }
+        private global::System.String _Name;
+        partial void OnNameChanging(global::System.String value);
+        partial void OnNameChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Int32> ServeyId
+        {
+            get
+            {
+                return _ServeyId;
+            }
+            set
+            {
+                OnServeyIdChanging(value);
+                ReportPropertyChanging("ServeyId");
+                _ServeyId = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("ServeyId");
+                OnServeyIdChanged();
+            }
+        }
+        private Nullable<global::System.Int32> _ServeyId;
+        partial void OnServeyIdChanging(Nullable<global::System.Int32> value);
+        partial void OnServeyIdChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Int32> DeployNumber
+        {
+            get
+            {
+                return _DeployNumber;
+            }
+            set
+            {
+                OnDeployNumberChanging(value);
+                ReportPropertyChanging("DeployNumber");
+                _DeployNumber = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("DeployNumber");
+                OnDeployNumberChanged();
+            }
+        }
+        private Nullable<global::System.Int32> _DeployNumber;
+        partial void OnDeployNumberChanging(Nullable<global::System.Int32> value);
+        partial void OnDeployNumberChanged();
+
+        #endregion
+    
+    }
+    
+    /// <summary>
+    /// No Metadata Documentation available.
+    /// </summary>
+    [EdmEntityTypeAttribute(NamespaceName="ApplicationModel", Name="Portal_Applications")]
+    [Serializable()]
+    [DataContractAttribute(IsReference=true)]
+    public partial class Portal_Applications : EntityObject
+    {
+        #region Factory Method
+    
+        /// <summary>
+        /// Create a new Portal_Applications object.
+        /// </summary>
+        /// <param name="id">Initial value of the Id property.</param>
+        public static Portal_Applications CreatePortal_Applications(global::System.Int32 id)
+        {
+            Portal_Applications portal_Applications = new Portal_Applications();
+            portal_Applications.Id = id;
+            return portal_Applications;
+        }
+
+        #endregion
+        #region Primitive Properties
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [DataMemberAttribute()]
+        public global::System.Int32 Id
+        {
+            get
+            {
+                return _Id;
+            }
+            set
+            {
+                if (_Id != value)
+                {
+                    OnIdChanging(value);
+                    ReportPropertyChanging("Id");
+                    _Id = StructuralObject.SetValidValue(value);
+                    ReportPropertyChanged("Id");
+                    OnIdChanged();
+                }
+            }
+        }
+        private global::System.Int32 _Id;
+        partial void OnIdChanging(global::System.Int32 value);
+        partial void OnIdChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public global::System.String Name
+        {
+            get
+            {
+                return _Name;
+            }
+            set
+            {
+                OnNameChanging(value);
+                ReportPropertyChanging("Name");
+                _Name = StructuralObject.SetValidValue(value, true);
+                ReportPropertyChanged("Name");
+                OnNameChanged();
+            }
+        }
+        private global::System.String _Name;
+        partial void OnNameChanging(global::System.String value);
+        partial void OnNameChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Int32> ServerId
+        {
+            get
+            {
+                return _ServerId;
+            }
+            set
+            {
+                OnServerIdChanging(value);
+                ReportPropertyChanging("ServerId");
+                _ServerId = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("ServerId");
+                OnServerIdChanged();
+            }
+        }
+        private Nullable<global::System.Int32> _ServerId;
+        partial void OnServerIdChanging(Nullable<global::System.Int32> value);
+        partial void OnServerIdChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Int32> DeployNumber
+        {
+            get
+            {
+                return _DeployNumber;
+            }
+            set
+            {
+                OnDeployNumberChanging(value);
+                ReportPropertyChanging("DeployNumber");
+                _DeployNumber = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("DeployNumber");
+                OnDeployNumberChanged();
+            }
+        }
+        private Nullable<global::System.Int32> _DeployNumber;
+        partial void OnDeployNumberChanging(Nullable<global::System.Int32> value);
+        partial void OnDeployNumberChanged();
 
         #endregion
     

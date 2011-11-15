@@ -84,6 +84,8 @@
     <Compile Include="Models\IApplicationRepository.cs" />
     <Compile Include="Models\EnvironmentModel.cs" />
     <Compile Include="Models\EnvironmentServerViewModel.cs" />
+    <Compile Include="Models\PortalApplicationsModel.cs" />
+    <Compile Include="Models\PortalApplicationsViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +125,13 @@
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts.Specs\lib\jasmine-1.0.2\jasmine-html.js" />
+    <Content Include="Scripts.Specs\lib\jasmine-1.0.2\jasmine-jquery.js" />
+    <Content Include="Scripts.Specs\lib\jasmine-1.0.2\jasmine.css" />
+    <Content Include="Scripts.Specs\lib\jasmine-1.0.2\jasmine.js" />
+    <Content Include="Scripts.Specs\lib\jasmine-1.0.2\jquery-1.6.1.min.js" />
+    <Content Include="Scripts.Specs\SpecRunner.html" />
+    <Content Include="Scripts.Specs\Spec\SpecHelper.js" />
     <Content Include="Scripts\board.js" />
     <Content Include="Scripts\jquery.ba-tinypubsub.js" />
     <Content Include="Scripts\main.js" />
@@ -183,6 +192,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_CpxApplications.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts.Specs\lib\jasmine-1.0.2\MIT.LICENSE" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

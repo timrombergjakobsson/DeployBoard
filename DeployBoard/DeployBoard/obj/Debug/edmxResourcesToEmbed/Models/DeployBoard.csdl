@@ -4,6 +4,8 @@
     <EntitySet Name="Applications" EntityType="ApplicationModel.Application" />
     <EntitySet Name="Applications_Servers" EntityType="ApplicationModel.Applications_Servers" />
     <EntitySet Name="Servers" EntityType="ApplicationModel.Servers" />
+    <EntitySet Name="LoadBalanced_Applications" EntityType="ApplicationModel.LoadBalanced_Applications" />
+    <EntitySet Name="Portal_Applications" EntityType="ApplicationModel.Portal_Applications" />
   </EntityContainer>
   <EntityType Name="Application">
     <Key>
@@ -29,5 +31,23 @@
     </Key>
     <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="LoadBalanced_Applications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="ServeyId" />
+    <Property Type="Int32" Name="DeployNumber" />
+  </EntityType>
+  <EntityType Name="Portal_Applications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="ServerId" />
+    <Property Type="Int32" Name="DeployNumber" />
   </EntityType>
 </Schema>

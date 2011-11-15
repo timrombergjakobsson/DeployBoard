@@ -1,4 +1,5 @@
 <Modules>
   <Module PersistentId="D8A97405-21FE-4199-9BCA-D2B1A0824E16" ModuleId="DeployBoard" />
   <Module PersistentId="C03874B9-BE2A-4C30-9455-90DE41606826" ModuleId="DeployBoard.Tests" />
+  <Module PersistentId="7704B778-5DF5-4BE1-B9F0-82C0F4B56D8F" ModuleId="DeployBoard.Specs" />
 </Modules>

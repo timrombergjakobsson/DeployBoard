@@ -3,61 +3,73 @@
     <RecentFiles>
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Site.css" caret="0" fromTop="0" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Application/f:ListApplications.cshtml" caret="0" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="0" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1132" fromTop="20" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:DeployBoard.Designer.cs" caret="6888" fromTop="17" />
-      <File id="17E7B191-0492-4CC9-853F-5044E63E6609/f:Class1.cs" caret="165" fromTop="11" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="1221" fromTop="18" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="1252" fromTop="14" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="186" fromTop="10" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="516" fromTop="16" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="404" fromTop="7" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="250" fromTop="12" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="420" fromTop="17" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:EnvironmentServerViewModel.cs" caret="0" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationViewModel.cs" caret="477" fromTop="14" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:PortalApplicationsViewModel.cs" caret="460" fromTop="15" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:PortalApplicationsModel.cs" caret="359" fromTop="14" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:ApplicationModel.cs" caret="298" fromTop="12" />
+      <File id="7704B778-5DF5-4BE1-B9F0-82C0F4B56D8F/f:Class1.cs" caret="395" fromTop="13" />
     </RecentFiles>
     <RecentEdits>
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="308" fromTop="3" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="250" fromTop="11" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="1528" fromTop="23" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Content/f:Style.css" caret="1248" fromTop="14" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="4312" fromTop="34" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="4339" fromTop="34" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="250" fromTop="8" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="4438" fromTop="18" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="1374" fromTop="20" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="1923" fromTop="22" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="2502" fromTop="24" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="3003" fromTop="13" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="3514" fromTop="18" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="3902" fromTop="15" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="0" fromTop="0" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="633" fromTop="9" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="1133" fromTop="15" />
       <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
-      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="239" fromTop="11" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="1039" fromTop="18" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Controllers/f:HomeController.cs" caret="380" fromTop="17" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="1146" fromTop="12" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="2017" fromTop="23" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="2521" fromTop="24" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="3024" fromTop="25" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="3538" fromTop="27" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Shared/f:_CpxApplications.cshtml" caret="4044" fromTop="25" />
+      <File id="7704B778-5DF5-4BE1-B9F0-82C0F4B56D8F/f:Class1.cs" caret="418" fromTop="14" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Views/d:Home/f:Index.cshtml" caret="259" fromTop="12" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:PortalApplicationsModel.cs" caret="0" fromTop="0" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:PortalApplicationsViewModel.cs" caret="450" fromTop="13" />
+      <File id="D8A97405-21FE-4199-9BCA-D2B1A0824E16/d:Models/f:PortalApplicationsModel.cs" caret="277" fromTop="11" />
+      <File id="7704B778-5DF5-4BE1-B9F0-82C0F4B56D8F/f:Class1.cs" caret="70" fromTop="2" />
+      <File id="7704B778-5DF5-4BE1-B9F0-82C0F4B56D8F/f:Class1.cs" caret="199" fromTop="9" />
+      <File id="7704B778-5DF5-4BE1-B9F0-82C0F4B56D8F/f:Class1.cs" caret="395" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
       <Item value="from" priority="31" />
       <Item value="Application`0" priority="122" />
-      <Item value="deployBoardEntities" priority="324" />
+      <Item value="deployBoardEntities" priority="357" />
       <Item value="orderby" priority="31" />
       <Item value="a" priority="215" />
       <Item value="select" priority="31" />
       <Item value="applications" priority="130" />
       <Item value="Html" priority="371" />
-      <Item value="DeployBoard" priority="535" />
+      <Item value="DeployBoard" priority="755" />
       <Item value="Controllers" priority="53" />
-      <Item value="Models" priority="323" />
+      <Item value="Models" priority="404" />
       <Item value="ApplicationModel`0" priority="272" />
       <Item value="foreach" priority="63" />
       <Item value="ViewBag" priority="95" />
       <Item value="Layout" priority="31" />
       <Item value="null" priority="31" />
       <Item value="ApplicationIdentity`0" priority="63" />
-      <Item value="Model" priority="409" />
-      <Item value="DeployBoardEntities`0" priority="509" />
-      <Item value="using" priority="242" />
+      <Item value="Model" priority="441" />
+      <Item value="DeployBoardEntities`0" priority="572" />
+      <Item value="using" priority="273" />
       <Item value="descending" priority="63" />
       <Item value="ascending" priority="31" />
-      <Item value="public" priority="191" />
+      <Item value="public" priority="316" />
       <Item value="ActionResult`0" priority="127" />
       <Item value="return" priority="127" />
       <Item value="where" priority="31" />
@@ -65,9 +77,9 @@
       <Item value="Name" priority="26" />
       <Item value="private" priority="63" />
       <Item value="deployBoardDataContext" priority="32" />
-      <Item value="new" priority="383" />
-      <Item value="DeployBoardEntities" priority="115" />
-      <Item value="void" priority="31" />
+      <Item value="new" priority="447" />
+      <Item value="DeployBoardEntities" priority="205" />
+      <Item value="void" priority="95" />
       <Item value="application" priority="129" />
       <Item value="DeployBoardContext`0" priority="191" />
       <Item value="IRepository" priority="26" />
@@ -75,25 +87,25 @@
       <Item value="_deployBoardEntities" priority="256" />
       <Item value="Applications" priority="55" />
       <Item value="MyDeployBoardContext`0" priority="31" />
-      <Item value="MvcApplication`0" priority="26" />
+      <Item value="MvcApplication`0" priority="53" />
       <Item value="Application" priority="28" />
       <Item value="ApplicationViewModel`0" priority="214" />
       <Item value="applicationView" priority="160" />
-      <Item value="deployBoard" priority="32" />
+      <Item value="deployBoard" priority="65" />
       <Item value="DeployBoardContext" priority="28" />
       <Item value="deploy" priority="32" />
       <Item value="_deploy" priority="31" />
-      <Item value="var" priority="31" />
+      <Item value="var" priority="63" />
       <Item value="Home" priority="32" />
       <Item value="HttpPost" priority="31" />
       <Item value="if" priority="31" />
       <Item value="ModelState" priority="63" />
       <Item value="this" priority="63" />
       <Item value="View`0" priority="31" />
-      <Item value="model" priority="310" />
+      <Item value="model" priority="342" />
       <Item value="HomeController`0" priority="63" />
-      <Item value="controller" priority="32" />
-      <Item value="HomeController" priority="28" />
+      <Item value="controller" priority="64" />
+      <Item value="HomeController" priority="57" />
       <Item value="try" priority="31" />
       <Item value="TempData" priority="31" />
       <Item value="RedirectToAction`0" priority="31" />
@@ -105,6 +117,15 @@
       <Item value="cpxapplications" priority="95" />
       <Item value="Cpx_Applications`0" priority="31" />
       <Item value="CpxApplicationModel`0" priority="31" />
+      <Item value="Cone" priority="30" />
+      <Item value="Describe" priority="31" />
+      <Item value="type" priority="31" />
+      <Item value="Class1`0" priority="30" />
+      <Item value="Verify`0" priority="31" />
+      <Item value="string" priority="30" />
+      <Item value="set" priority="31" />
+      <Item value="static" priority="61" />
+      <Item value="IQueryable" priority="30" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DeployBoard.Models.DeployBoardEntities">
       <Item value="Applications" priority="188" />
@@ -210,6 +231,12 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Object">
       <Item value="DeployNumber" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Cone.Verify">
+      <Item value="That`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DeployBoard.Controllers.HomeController">
+      <Item value="ControllerContext" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>

@@ -8,6 +8,8 @@
         <EntityContainer Name="ApplicationModelStoreContainer">
           <EntitySet Name="Applications" EntityType="ApplicationModel.Store.Applications" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Applications_Servers" EntityType="ApplicationModel.Store.Applications_Servers" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="LoadBalanced_Applications" EntityType="ApplicationModel.Store.LoadBalanced_Applications" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Portal_Applications" EntityType="ApplicationModel.Store.Portal_Applications" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Servers" EntityType="ApplicationModel.Store.Servers" store:Type="Tables" Schema="dbo" />
         </EntityContainer>
         <EntityType Name="Applications">
@@ -28,6 +30,24 @@
           <Property Name="Server_id" Type="int" Nullable="false" />
           <Property Name="Applications_id" Type="int" Nullable="false" />
         </EntityType>
+        <EntityType Name="LoadBalanced_Applications">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="ServeyId" Type="int" />
+          <Property Name="DeployNumber" Type="int" />
+        </EntityType>
+        <EntityType Name="Portal_Applications">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="ServerId" Type="int" />
+          <Property Name="DeployNumber" Type="int" />
+        </EntityType>
         <EntityType Name="Servers">
           <Key>
             <PropertyRef Name="Id" />
@@ -43,6 +63,8 @@
           <EntitySet Name="Applications" EntityType="ApplicationModel.Application" />
           <EntitySet Name="Applications_Servers" EntityType="ApplicationModel.Applications_Servers" />
           <EntitySet Name="Servers" EntityType="ApplicationModel.Servers" />
+          <EntitySet Name="LoadBalanced_Applications" EntityType="ApplicationModel.LoadBalanced_Applications" />
+          <EntitySet Name="Portal_Applications" EntityType="ApplicationModel.Portal_Applications" />
         </EntityContainer>
         <EntityType Name="Application">
           <Key>
@@ -68,6 +90,24 @@
           </Key>
           <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="LoadBalanced_Applications">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="ServeyId" />
+          <Property Type="Int32" Name="DeployNumber" />
+        </EntityType>
+        <EntityType Name="Portal_Applications">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="ServerId" />
+          <Property Type="Int32" Name="DeployNumber" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -98,6 +138,26 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="LoadBalanced_Applications">
+            <EntityTypeMapping TypeName="ApplicationModel.LoadBalanced_Applications">
+              <MappingFragment StoreEntitySet="LoadBalanced_Applications">
+                <ScalarProperty Name="DeployNumber" ColumnName="DeployNumber" />
+                <ScalarProperty Name="ServeyId" ColumnName="ServeyId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Portal_Applications">
+            <EntityTypeMapping TypeName="ApplicationModel.Portal_Applications">
+              <MappingFragment StoreEntitySet="Portal_Applications">
+                <ScalarProperty Name="DeployNumber" ColumnName="DeployNumber" />
+                <ScalarProperty Name="ServerId" ColumnName="ServerId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -122,6 +182,8 @@
         <EntityTypeShape EntityType="ApplicationModel.Application" Width="1.5" PointX="0.75" PointY="0.75" Height="1.59568359375" IsExpanded="true" />
         <EntityTypeShape EntityType="ApplicationModel.Applications_Servers" Width="1.5" PointX="3.75" PointY="0.75" Height="1.5956835937499996" />
         <EntityTypeShape EntityType="ApplicationModel.Servers" Width="1.5" PointX="0.75" PointY="3.75" Height="1.4033821614583322" />
+        <EntityTypeShape EntityType="ApplicationModel.LoadBalanced_Applications" Width="1.5" PointX="3.375" PointY="3.75" Height="1.7879850260416657" />
+        <EntityTypeShape EntityType="ApplicationModel.Portal_Applications" Width="1.5" PointX="5.375" PointY="3.75" Height="1.7879850260416674" />
       </Diagram>
     </Diagrams>
   </Designer>

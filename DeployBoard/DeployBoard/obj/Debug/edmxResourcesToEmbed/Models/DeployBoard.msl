@@ -28,5 +28,25 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="LoadBalanced_Applications">
+      <EntityTypeMapping TypeName="ApplicationModel.LoadBalanced_Applications">
+        <MappingFragment StoreEntitySet="LoadBalanced_Applications">
+          <ScalarProperty Name="DeployNumber" ColumnName="DeployNumber" />
+          <ScalarProperty Name="ServeyId" ColumnName="ServeyId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Portal_Applications">
+      <EntityTypeMapping TypeName="ApplicationModel.Portal_Applications">
+        <MappingFragment StoreEntitySet="Portal_Applications">
+          <ScalarProperty Name="DeployNumber" ColumnName="DeployNumber" />
+          <ScalarProperty Name="ServerId" ColumnName="ServerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

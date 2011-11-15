@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Voucher Cannon Test Runner</title>
+  <link rel="stylesheet" type="text/css" href="lib/jasmine-1.0.2/jasmine.css" />
+</head>
+<body>
+  <script type="text/javascript" src="lib/jasmine-1.0.2/jasmine.js"></script>
+  <script type="text/javascript" src="lib/jasmine-1.0.2/jasmine-html.js"></script>
+  <script type="text/javascript" src="lib/jasmine-1.0.2/jquery-1.6.1.min.js"></script>
+  <script type="text/javascript" src="lib/jasmine-1.0.2/jasmine-jquery.js"></script>    
+  
+  <!-- include spec files here... -->
+  <script type="text/javascript" src="login-form.spec.js"></script>
+  <script type="text/javascript" src="Spec/SpecHelper.js"></script>
+  <script src="email-validation.spec.js" type="text/javascript"></script>
+  <!--include source files here... -->
+  <script type="text/javascript" src="../Scripts/VoucherScripts/login-form.js"></script>
+  <script src="../Scripts/VoucherScripts/email-validation.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+  jasmine.getEnv().execute();
+  jasmine.getFixtures().fixturesPath = "../Views/Account/";
+</script>
+
+</body>
+</html>
